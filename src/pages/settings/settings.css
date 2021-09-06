@@ -1,0 +1,89 @@
+.settings {
+    display: flex;
+}
+.wrapper {
+    flex: 9;
+    padding:20px;
+}
+.settingsTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.updateTitle {
+   font-size: 30px;
+   margin-bottom: 20px;
+   color:lightcoral;
+}
+.deleteTitle {
+    color:red;
+    font-size:15px;
+    cursor: pointer;
+}
+.form-settings {
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin:10px 0;
+}
+.settingsPP img {
+ width:70px;
+ height: 70px;
+ border-radius: 20px;
+ object-fit: cover;
+}
+.settingsPP-icon {
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align:center;
+    color:#fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.form-settings label {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:teal;
+} 
+.form-settings input {
+    color:gray;
+    margin :10px 0;
+    height: 30px;
+    border:none;
+    border-bottom: 3px solid lightgray;
+    outline: none;
+    transition: all 0.5s ease-in;
+    font-size: 17px;
+}
+.form-settings input:focus {
+    border-color:teal;
+}
+.form-settings input:focus::placeholder {
+    transform: translateY(-7px);
+    color:teal;
+    transition:transform 0.5s ease-in;
+   }
+
+.settingsUpdate{
+   width: 150px;
+   align-self: center;
+   border:none;
+   border-radius: 10px;
+   color:#fff;
+   background:teal ;
+   padding:12px;
+   margin-top: 20px;
+   transition: 0.4s ;
+}
+.settingsUpdate:hover {
+    opacity:0.7;
+}
