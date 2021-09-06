@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React blog pages with css design
+![Capture d’écran 2021-09-06 115804](https://user-images.githubusercontent.com/73104268/132207782-f298faa9-7878-4b10-9d62-f9a1d48d2b2a.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
